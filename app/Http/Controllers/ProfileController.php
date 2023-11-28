@@ -89,7 +89,7 @@ class ProfileController extends Controller
 
         $profile->update($request->all());
 
-        return redirect()->route('profiless.index')
+        return redirect()->route('profiles.index')
             ->with('success', 'Profile updated successfully.');
     }
 
